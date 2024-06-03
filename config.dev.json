@@ -18,16 +18,16 @@
   },
   "adminBot": [
     "100043588132979",
-    "",
-    "",
-    ""
+    "100094183346339",
+    "61560128205385",
+    "61560170243143"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "➪ N O O R M A G I",
+  "nickNameBot": "➪𝗚𝗢𝗞𝗨 𝗕𝗟𝗔𝗖𝗞 𝗣𝗥𝗜𝗠𝗘",
   "prefix": ".",
   "database": {
     "type": "sqlite",
