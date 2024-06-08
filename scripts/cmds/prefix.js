@@ -14,7 +14,7 @@ module.exports = {
  onChat: async function({ event, message, getLang }) {
  if (event.body && event.body.toLowerCase() === "prefix") {
  return message.reply({
- body: `Hello bro\n\nMy prefix is [ . ]\n\n______________________________\n\n𝗛𝗢𝗪 𝗧𝗢 𝗨𝗦𝗘?\nexample please type: .help - to view sure cmds\n.menu\n.info\n.owner\n.ping\n\n𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥: MR.RAFI ツ\n______________________________
+ body: `Hello bro\n\nMy prefix is [ . ]\n\n______________________________\n\n𝗛𝗢𝗪 𝗧𝗢 𝗨𝗦𝗘?\nexample please type: .help - to view sure cmds\n.menu\n.info\n.owner\n.ping\n\n𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥: sʜᴇɪᴋʜ ʀᴜᴘᴏᴋ ツ\n______________________________
 `,
   attachment: await global.utils.getStreamFromURL("https://i.postimg.cc/rs10XHpG/15009.gif")
  });
