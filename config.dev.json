@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "primesobhan@gmail.com",
-    "password": "sobhan106",
+    "email": "",
+    "password": "",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -17,17 +17,14 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100043588132979",
-    "100094183346339",
-    "61560128205385",
-    "61560170243143"
+    "100090111009775",
   ],
   "whiteListMode": {
     "enable": false,
-    "whiteListIds": [],
+    "whiteListIds": [""],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "➪𝗚𝗢𝗞𝗨 𝗕𝗟𝗔𝗖𝗞 𝗣𝗥𝗜𝗠𝗘",
+  "nickNameBot": "ᴄᴀᴛ 😽💫",
   "prefix": ".",
   "database": {
     "type": "sqlite",
@@ -36,7 +33,7 @@
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
   },
-  "timeZone": "Asia/Ho_Chi_Minh",
+  "timeZone": "Asia/Dhaka",
   "credentials": {
     "gmailAccount": {
       "email": "tchindaazice@gmail.com",
@@ -94,7 +91,7 @@
     "notes": "This is the message when the bot is listening to the mqtt server and the mqtt server stops working due to account problems such as: locked acc, blocked due to spam,... bot will automatically send notifications to parts of your settings. You must change enable to true to use this feature. See bot/login/handlerWhenListenHasError.js file for details on how it works",
     "gmail": {
       "enable": false,
-      "emailGetNoti": "",
+      "emailGetNoti": "yesiamjisan@gmail.com",
       "note": "Bot will use gmailAccount to send email to emailGetNoti, can send notifications to many email, separate by comma or space, example: \"example1@gmail.com example2@gmail.com\" (without backslash)"
     },
     "telegram": {
